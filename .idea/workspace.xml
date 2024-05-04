@@ -5,16 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56f3eaa0-c576-4faa-8f42-0994b99f9d4f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/api/v1/views/amenities.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/v1/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/views/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/v1/views/cities.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/views/cities.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/views/states.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/views/states.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/engine/db_storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/engine/db_storage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/engine/file_storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/engine/file_storage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

@@ -19,6 +19,7 @@ def get_cities(state_id):
 @app_views.route('/states/<state_id>/cities', methods=['POST'],
                  strict_slashes=False)
 def post_city(state_id):
+    """Creates a City object"""
     state = storage.get("State", state_id)
     if not state:
         abort(404)
