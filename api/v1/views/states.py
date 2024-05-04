@@ -7,7 +7,7 @@ from models.state import State
 
 
 @app_views.route('/states', methods=['GET', 'POST'], strict_slashes=False)
-def get_states():
+def get_post_states():
     """Retrieves the list of all State objects"""
     if request.method == 'GET':
         return jsonify([state.to_dict() for state in
@@ -26,7 +26,7 @@ def get_states():
 
 @app_views.route('/states/<state_id>', methods=['GET', 'PUT',
                                                 'DELETE'], strict_slashes=False)
-def get_state(state_id):
+def get__put_delete_states(state_id):
     """Retrieves a State object"""
     state = storage.get('State', state_id)
     if not state:
